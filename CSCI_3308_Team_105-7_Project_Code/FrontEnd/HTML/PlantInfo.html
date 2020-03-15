@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Plant Information</title>
+	<link rel="icon" href="../Resources/Images/plantIcon.png">
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="../Resources/CSS/my_style.css" rel="stylesheet">
+  </head>
+
+<body>
+    <!-- Top Nav Bar/Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./Search.html">
+            <img class="img-fluid" src="../Resources/Images/plantIcon.png" alt="" width="30px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./Search.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Survey.html">Find My Plant Survey</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./FAQ.html">Plant Care FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <container>
+      <div class="inline">
+      <!-- Plant image -->
+        <img class="pimg rounded" style="float:left; margin-left:50px; margin-top:50px; border: solid;" width="500" height="500" src= "plant_pic">
+      <!-- Plant name -->
+        <div class="jumbotron jumbotron-fluid bg-success text-white">
+          <div class="container">
+            <h1 style="margin-top:75px; position: absolute; right: 0; top: 0; margin-right:375px;">plant_name</h1>
+          </div>
+        </div>
+        <table class="table" style="max-width:500px; margin-right:auto; margin-left:auto; border:5px double black;">
+          <thead>
+              <tr>
+                <td scope="col">Water Level:</td>
+                <td scope="col"><var>water</var></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Light Level:</td>
+                <td><var>light</var></td>
+              </tr>
+              <tr>
+                <td scope="row">Temperature:</td>
+                <td><var>temp F</var></td>
+              </tr>
+              <tr>
+                <td scope="row">Humidity:</td>
+                <td><var>hum %</var></td>
+              </tr>
+              <tr>
+                <td scope="row">Soil pH:</td>
+                <td><var>soil</var></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <div class="container">
+        <h1 style="margin-top:140px; margin-left:50px;">Difficulty</h1>
+        <font size= "+2" style="margin-top:140px; margin-left:50px;">plant_diff</font>
+      </div>
+    </container>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="../Resources/JavaScript/scripts.js"></script>
+</body>
+</html>
